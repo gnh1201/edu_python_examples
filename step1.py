@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #  step1.py
-#  Printtable Square Table
+#  Printtable Square Multiplication Table
 #
 
 def main():
