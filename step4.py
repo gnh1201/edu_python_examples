@@ -35,8 +35,6 @@ def main():
 	c_x = int(b[0].strip())
 	c_y = int(b[0].strip())
 
-	print c_x
-
 	move_turtle_to([c_x, c_y])
 	turtle.dot(5)
 
