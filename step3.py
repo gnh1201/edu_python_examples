@@ -19,7 +19,6 @@ def number_format(number):
 def main():
 	prizes = [10000000, 3000000, 1000000, 0]
 	str_nums = str(generate_lottery_number())
-	str_nums = "19"
 	lucky_num = raw_input("Input your lucky number: ")
 
 	real_nums = list(str_nums)
