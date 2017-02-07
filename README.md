@@ -3,7 +3,7 @@ educational example for python programming language
 
 ## Included resources
 - Printtable Square Multiplication Table
-- Convert Kilogram to Pounds
+- Convert pounds to kilograms
 - Lottery with Two-length number
 - Check status of some point in square shape
 
