@@ -2,19 +2,19 @@
 # -*- coding: utf-8 -*-
 #
 #  step2.py
-#  Convert Kilogram to Pounds
+#  Convert pounds to kilograms
 #  
 
-def convert_kilo_to_pound(kilograms):
-	pounds = kilograms * 2.2
+def convert_pound_to_kilo(pounds):
+	kilograms = pounds * 0.454
 	
-	return pounds
+	return kilograms
 
 def main():
-	a = raw_input("please input pound: ")
-	b = convert_kilo_to_pound(float(a))
+	a = raw_input("please input pounds: ")
+	b = convert_pound_to_kilo(float(a))
 	
-	print("result is: " + str(b) + " pounds")
+	print("result is: " + str(b) + " kilograms")
 	
 	return 0
 

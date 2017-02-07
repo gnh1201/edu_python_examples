@@ -12,8 +12,8 @@ def generate_lottery_number():
 	return b
 
 def number_format(number):
-	a = locale.format(u'%d', number, True)
-
+	#a = locale.format(u'%d', number, True)
+	a = format(number, ",d")
 	return a
 
 def main():
@@ -63,8 +63,8 @@ def main():
 
 if __name__ == '__main__':
 	import random
-	import locale
-	locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+	#import locale
+	#locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 	main()
 
